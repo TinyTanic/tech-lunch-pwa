@@ -1,0 +1,17 @@
+import React from 'react';
+import cn from 'classnames';
+{{#if translation}}
+import { withNamespaces } from 'react-i18next';
+{{/if}}
+
+const {{pascalCase name}} = ({ className, ...props }) => (
+  <div className={cn('{{kebabCase name}}', className)} {...props}>
+    {{name}}
+  </div>
+);
+
+{{#if translation}}
+export default withNamespaces([ 'global' ])({{pascalCase name}});
+{{ else}}
+export default {{pascalCase name}};
+{{/if}}

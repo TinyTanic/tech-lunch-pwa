@@ -1,0 +1,19 @@
+.cat-card {
+  width: fit-content;
+  padding: 10px;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+
+  .cat-image {
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .cat-name {
+    text-align: center;
+    margin-top: 10px;
+  }
+}

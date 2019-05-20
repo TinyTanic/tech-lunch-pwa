@@ -1,0 +1,28 @@
+import React, { Component } from 'react';
+import { withNamespaces } from 'react-i18next';
+import { connect } from 'react-redux';
+
+import { createMapStateToProps } from '../../../../store/utils/redux';
+
+class {{pascalCase name}} extends Component {
+  render() {
+    const {
+      t,
+    } = this.props;
+
+    return (
+      <div className="page-{{kebabCase name}}">
+        {{name}}
+      </div>
+    );
+  }
+}
+
+const mapStateToProps = createMapStateToProps({});
+
+const mapDispatchToProps = (dispatch) => ({});
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(withNamespaces([ 'global' ])(PageUser));

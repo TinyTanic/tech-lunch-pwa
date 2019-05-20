@@ -1,0 +1,26 @@
+[
+  {
+    "name": "cat1",
+    "description": "a beautiful cat",
+    "purryness": 70,
+    "image": "/images/cat1.jpg"
+  },
+  {
+    "name": "cat2",
+    "description": "a beautiful cat",
+    "purryness": 41,
+    "image": "/images/cat2.jpg"
+  },
+  {
+    "name": "cat3",
+    "description": "a beautiful cat",
+    "purryness": 99,
+    "image": "/images/cat3.jpg"
+  },
+  {
+    "name": "cat4",
+    "description": "a beautiful cat",
+    "purryness": 63,
+    "image": "/images/cat4.jpg"
+  }
+]

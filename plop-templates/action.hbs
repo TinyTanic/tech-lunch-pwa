@@ -1,0 +1,10 @@
+import { createAction, createActionType } from "../utils/redux";
+export const KEY = '{{constantCase name}}';
+
+// TYPE NAMES
+const createType = createActionType(KEY);
+
+export const DEFAULT = createType('DEFAULT');
+
+// ACTIONS
+export const getDefault = (props) => createAction(DEFAULT, { props });
